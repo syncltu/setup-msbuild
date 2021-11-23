@@ -14,7 +14,7 @@ This action will help discover where the `MSBuild` tool is and automatically add
 ```
 
 ## Optional Parameters
-There are a few additional parameters that can be set if you need them. These are optional and should only be set if you know that you need them or what you are doing.
+There are da few additional parameters that can be set if you need them. These are optional and should only be set if you know that you need them or what you are doing.
 
 ### Specifying specific versions of Visual Studio (optional)
 You may have a situation where your Actions runner has multiple versions of Visual Studio and you need to find a specific version of the tool.  Simply add the `vs-version` input to specify the range of versions to find.  If looking for a specific version, specify the minimum and maximum versions as shown in the example below, which will look for just 16.4.
